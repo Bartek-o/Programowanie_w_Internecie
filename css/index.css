@@ -1,0 +1,12 @@
+body {
+    font-family: 'Alfa Slab One', cursive;
+}
+
+#hello {
+    font-size: 100px;
+}
+
+#zadania > h4 > a:hover {
+    font-size: 25px;
+    color: #0091ff;
+}

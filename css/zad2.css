@@ -1,0 +1,235 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    /*background-color: #adadad;*/
+    
+}
+
+main {
+    /*background-color: rgba(255, 255, 255, 0.6);*/
+    width: 70vw;
+    margin: auto;
+    display: grid;
+}
+
+nav {
+    background-color: #6bffd3;
+    z-index: 1;
+}
+
+#menu {
+    /*background-color: #6bffd3;*/
+    height: 40px;
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    left: 0;
+}
+
+#menu > div > a {
+    margin: auto 20px;
+    line-height: 40px;
+    text-decoration: none;
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+#menu > div > a:hover {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+#menu_navi {
+    width: 60%;
+    margin-left: 10%;
+}
+
+#menu_contact {
+    width: 20%;
+    margin-right: 10%;
+    justify-items: center;
+}
+
+#menu_contact > a {
+    float: right;
+}
+
+#top > div:nth-child(2) {
+    z-index: 0;
+    position: absolute;
+    right: 10%;
+    top: 60%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    color: black;
+    text-align: right;
+    font-weight: 700;
+}
+
+#top > div:nth-child(1) {
+    height: 100vh;
+    background: url(../images/p1.jpg) center center ;
+    background-size: cover;
+}
+
+#about_me_container {
+    margin: 40px auto;
+    display: flex;
+}
+
+#biography {
+    margin-bottom: 50px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+#about_me_container > div:nth-child(1) {
+    width: 60%;
+    text-align: center;
+    padding: 0 30px;
+}
+
+#about_me_container > div:nth-child(2) {
+    width: 40%;
+}
+
+.text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    margin: auto;
+    text-align: justify;
+}
+
+.text > p {
+    padding: 3px 0px 3px 0px;
+}
+
+#about_me_img {
+    display: flex;
+    align-items: center;
+}
+
+#about_me_img > img {
+    padding: 0 10px;
+    width: 100%;
+    border-radius: 50%;
+}
+
+#biography + #projects + #contact {
+    margin-bottom: 50px;
+}
+
+.images_container > div {
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 1%;
+    padding-right: 1%;
+    display: grid;
+    justify-items: center;
+}
+
+.images_container > div > img {
+    width: 100%;
+}
+
+.images_container > div > p {
+    padding-top: 8px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+}
+
+.images_container > div > a {
+    padding-top: 8px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.images_container > div > a:hover {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.icon:hover {
+    background: radial-gradient(#ffffff00 47%, #34c2afcc 60%, #ffffff00 72%);
+    cursor: pointer;
+}
+
+.icon_nav:hover {
+    background: radial-gradient(#ffffff00 30%, #000000cc 50%, #ffffff00 70%);
+}
+
+footer {
+    text-align: center;
+    background-color: #6bffd3;
+    font-family: 'Raleway', sans-serif;
+    font-size: small;
+    padding: 3px;
+}
+
+.fade_in {
+    animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3s;
+    -moz-animation: fadeIn ease 3s;
+    -o-animation: fadeIn ease 3s;
+    -ms-animation: fadeIn ease 3s;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+@-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+@-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+@-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+@-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+  }
+}
