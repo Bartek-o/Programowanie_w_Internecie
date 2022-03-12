@@ -3,13 +3,8 @@
     margin: 0;
 }
 
-body {
-    /*background-color: #adadad;*/
-    
-}
 
 main {
-    /*background-color: rgba(255, 255, 255, 0.6);*/
     width: 70vw;
     margin: auto;
     display: grid;
@@ -21,7 +16,6 @@ nav {
 }
 
 #menu {
-    /*background-color: #6bffd3;*/
     height: 40px;
     display: flex;
     position: fixed;
@@ -82,10 +76,6 @@ nav {
     display: flex;
 }
 
-#biography {
-    margin-bottom: 50px;
-}
-
 h1 {
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -126,7 +116,15 @@ h1 {
     border-radius: 50%;
 }
 
-#biography + #projects + #contact {
+#biography {
+    margin-bottom: 50px;
+}
+
+#projects {
+    margin-bottom: 50px;
+}
+
+#contact {
     margin-bottom: 50px;
 }
 
