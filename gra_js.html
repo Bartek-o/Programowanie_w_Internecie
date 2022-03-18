@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ocypa Bartłomiej</title>
+        <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/gra_js.css" />
+    </head>
+    <body>
+        <div id="win" style="display: none;">
+            <div>
+                <h1>Congratulations</h1>
+                <button id="reset">Reset</button>
+            </div>
+        </div>
+
+        <div>
+            <h1>Memory</h1>
+            <div>
+                <label>Choose a size:</label>
+                <select id="select_size">
+                    <option value="0">2x2</option>
+                    <option value="1">4x4</option>
+                    <option value="2">6x6</option>
+                    <option value="3">8x6</option>
+                    <option value="4">10x6</option>
+                    <option value="5">12x6</option>
+                    <option value="6">14x6</option>
+                </select>
+                <button id="OK">OK</button>
+            </div>
+        </div>
+
+        <table id="tabela"></table>
+        
+        <script src="js/gra_js.js"></script>
+    </body>
+</html>
