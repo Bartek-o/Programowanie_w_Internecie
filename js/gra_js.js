@@ -247,8 +247,10 @@ function check() {
         if (hidden_images == 0) {
             // W Y G R A N A ! ! ! 
             var win = document.getElementById("win");
-            win.classList.remove("fade_out");
-            win.classList.toggle("fade_in");
+            if (!(/*@cc_on!@*/false || !!document.documentMode)) {
+                win.classList.remove("fade_out");
+                win.classList.toggle("fade_in");
+            }
             win.style.display = "block";
         }
 

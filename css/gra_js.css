@@ -53,6 +53,7 @@ td > div {
     background-color: rgb(183, 189, 190);
     border-radius: 15%;
     margin: 3px;
+    width: 100px;
 }
 
 td > div > img {
@@ -62,7 +63,6 @@ td > div > img {
 .rotate {
     -webkit-transform : rotateY(90deg); 
     -moz-transform : rotateY(90deg); 
-    -ms-transform : rotateY(90deg);
     -o-transform : rotateY(90deg); 
     transform : rotateY(90deg);
 }
@@ -75,6 +75,9 @@ td > div > img {
 }
 
 .delay {
+    -webkit-transition-delay: 0.4s;
+    -moz-transition-delay: 0.4s;
+    -o-transition-delay: 0.4s;
     transition-delay: 0.4s;
 }
 
