@@ -133,7 +133,7 @@
     .text {
         font-size: 16px;
     }
-    .images_container > div {
+    #contact > .images_container > div {
         display: block;
     }
     .images_container > div > a {
@@ -160,7 +160,7 @@
 }
 
 @media screen and (max-width: 420px) {
-    .images_container > div {
+    #contact > .images_container > div {
         display: grid;
         width: 100%;
     }
