@@ -141,6 +141,9 @@ h1 {
     padding-right: 1%;
     display: grid;
     justify-items: center;
+}
+
+#contact > .images_container > div {
     width: 33.3%;
 }
 
